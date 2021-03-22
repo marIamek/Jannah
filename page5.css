@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Akaya Telivigala', cursive;
+	text-decoration: none;
+}
+.head{
+	width:100%;
+	position:fixed;
+	background-color:#A3CB38;
+	padding: 25px;
+}
+.head-content{
+	width: 1300px;
+	display: flex;
+	justify-content:space-between;	
+	margin: auto;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;/*permet de mettre sur la meme ligne*/
+}
+.menu li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+	border: 5px solid #A3CB38;
+	border-radius: 30px;
+	background-color:#009432;
+}
+.menu li a:hover{
+	color:#A3CB38 ;
+}
+.logo a{
+	color:white;
+	font-size: 40px;
+	font-weight: 400px;
+	padding-right: 35px;
+}
+i {
+	color:#009432;
+}
+.sous{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous{
+	display:block;
+}
+.sous li{
+	padding-top: 30px;
+	
+	width: 400px;
+	
+}
+
+.sous1{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous1{
+	display:block;
+}
+.sous1 li{
+	padding-top: 30px;
+	width: 400px;
+	
+}
+/*.sous2{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous2{
+	display:block;
+}
+.sous2 li{
+	padding-top: 30px;
+	width: 400px;
+	
+}*/
+.sous3{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous3{
+	display:block;
+}
+.sous3 li{
+	padding-top: 30px;
+	width: 400px;
+	
+}
+.sec{
+	padding: 50px 150px;
+	background-image: url('cou.jpeg');
+	background-position: no-repeat;
+    background-attachment: fixed;
+    background-color: red;
+}
+
+.sec .title{
+	font-size: 50px;
+	font-weight: 500px;
+	text-align: center;
+	color:#A3CB38;
+	margin-top: 70px;
+}
+.{
+	color:#A3CB38;
+}
+.sec .text{
+	font-size: 35px;
+	font-weight: 100px;
+	color:;
+
+}
+img{
+	height: 450px;
+	width: 500px;
+	border:10px solid #009432;
+	border-radius: 25px;
+	margin-top:70px;
+
+}
+.fa{
+	background-color:#A3CB38;
+	width:1300px;
+	color: white;
+	margin-top: 70px;
+	padding-right:400px; 
+
+}
+.fav{
+	color: white;
+	font-size: 20px;
+}
+.d{
+	color: white;
+	font-size: 20px;
+}

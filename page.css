@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Akaya Telivigala', cursive;
+	text-decoration: none;
+}
+@media screen and(max-width: 680){
+	nav .head .head-content .menu a{
+		flex-wrap: wrap;
+	}
+}
+.head{
+	width:100%;
+	position:fixed;
+	background-color:#A3CB38;
+	padding: 25px;
+	flex-wrap: wrap;
+}
+.head-content{
+	width: 1300px;
+	display: flex;
+	justify-content:space-between;	
+	margin: auto;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;/*permet de mettre sur la meme ligne*/
+}
+.menu li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+	border: 5px solid #A3CB38;
+	border-radius: 30px;
+	background-color:#009432;
+}
+.menu li a:hover{
+	color:#A3CB38 ;
+}
+.logo a{
+	color:white;
+	font-size: 40px;
+	font-weight: 400px;
+	padding-right: 35px;
+}
+i{
+	color:#009432;
+}
+.sous{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous{
+	display:block;
+}
+.sous li{
+	padding-top: 30px;
+	width: 600px;
+	
+}
+.sous1{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous1{
+	display:block;
+}
+.sous1 li{
+	padding-top: 30px;
+	width: 400px;
+	
+}
+/*.sous2{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous2{
+	display:block;
+}
+.sous2 li{
+	padding-top: 30px;
+	width: 400px;
+	
+}*/
+.sous3{
+	display:none ;
+	position:absolute;
+	width: 400px;
+	background-color:
+}
+.menu li:hover .sous3{
+	display:block;
+}
+.sous3 li{
+	padding-top: 30px;
+	width: 400px;
+	
+}
+
+
+/****************************************************fin entete*****/
+.sect1{
+	background-image:url('jn.jpg');
+	height:800px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block;
+    padding-top: 30px;
+
+}
+.sect1 .sect1-content{
+	padding-left:120px;
+	padding-top: 250px;
+	font-size: 70px;
+	font-weight: 100px;
+	color:#A3CB38;
+}
+.sec2{
+	 background-image: url('pexe.jpg');
+	 background-position: no-repeat;
+     background-attachment: fixed;
+	 box-shadow: 5px 5px 7px white;
+	 padding:50px;
+	 font-size: 40px;
+	 font-weight: 100px;
+     color: white;
+     margin: 60px 60px 60px 60px;
+}
+.fa{
+	background-color:#A3CB38;
+	padding-left:60px;
+	width: 1300px; 
+	color: white;
+}
+.fab{
+	font-size: 25px;
+}
+
+h3{
+	color: white;
+}
