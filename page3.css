@@ -103,6 +103,8 @@ i {
 	
 }
 .sec{
+	background-image:url('cmk(2).jpg');
+	background-size: cover;
 	padding: 50px 150px;   
 }
 
